@@ -3,11 +3,11 @@
  * @file - pdo.php
  * file to establish connection to database server
  */
-const DB_HOST = 'localhost';
+const DB_HOST = 'db4free.net';
 const DB_PORT = 3306;
-const DB_NAME = 'todo_list';
-const DB_USER = 'php';
-const DB_PASSWORD = 'phpdb';
+const DB_NAME = 'todo_list_db';
+const DB_USER = 'admin4db';
+const DB_PASSWORD = 'nm@wUEx6su2nKQ9';
 const DB_CONN_ERROR = "<b>Something went wrong with database connection</b>, Please contact admin with the error message as...: ";
 //Setting default time zone for the application in server !
 date_default_timezone_set('America/Chicago');

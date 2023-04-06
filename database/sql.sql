@@ -3,7 +3,6 @@
 -- Database Server: localhost via TCP/IP
 -- Server type: MySQL
 -- Server version: 5.7.24 - MySQL Community Server (GPL)
--- User: root@localhost
 -- Server charset: UTF-8 Unicode (utf8)
 
 -- Web Server - localhost 
@@ -17,8 +16,8 @@ SET time_zone = "-06:00";
 
 
 -- Database todo_list
-CREATE DATABASE IF NOT EXISTS todo_list;
-USE todo_list;
+CREATE DATABASE IF NOT EXISTS todo_list_db;
+USE todo_list_db;
 
 -- Table structure for table `users`
 CREATE TABLE users (
