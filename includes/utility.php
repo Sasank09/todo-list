@@ -28,7 +28,7 @@ const TODO_UPDATE_SUCCESS_MSG = "Todo is Updated Successfully.";
 const TODO_UPDATE_FAIL_MSG = "Something went wrong, Todo is not updated, please try again.";
 const TODO_STATUS_UPDATE_SUCCESS_MSG = "Todo status is updated successfully.";
 const TODO_STATUS_UPDATE_FAIL_MSG = "Something went wrong, Todo status is not updated..";
-const DELETE_TODO_SUCCESS_MSG =  "Todo record is deleted successfully.";
+const DELETE_TODO_SUCCESS_MSG =  "Todo record is deleted successfully. Please wait while we navigate to dashboard";
 const DELETE_TODO_FAIL_MSG = "Error: No Records found to delete or you don't have access to it, please try again properly";
 const NO_TODOS_AVAILABLE = "No todo's are available  to display..!!!";
 const NO_TODOS_COMPLETED = "No todo's are completed to display..!!!";
@@ -217,7 +217,7 @@ function getFooter()
 {
     $output = '<!-- Footer -->
     <footer class="fixed-bottom bg-dark text-center text-white">
-        <span>Developed by <a href="" class="text-info">Sasank Tipparaju & Jaya Chandu</a></span>
+        <span>Developed by <a href="" class="text-info">Sasank Tipparaju</a> &#38;&nbsp; GitHub: <a href="https://github.com/Sasank09/todo-list">Link</a></span>
     </footer>
     ';
     echo $output;

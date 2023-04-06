@@ -63,7 +63,7 @@ if (isset($_SESSION['user_mail']) && isset($_SESSION['login_status']) && !empty(
     </div>
     <script>
         $(document).ready(function() {
-            $("#cover-spin").show().delay(1000).fadeOut();
+            $("#cover-spin").show().delay(700).fadeOut();
         });
     </script>
 </body>

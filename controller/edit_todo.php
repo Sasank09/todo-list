@@ -81,7 +81,7 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
         "use strict";
         //On DOM ready logic
         $(document).ready(function() {
-            $("#cover-spin").show(),delay(500).fadeOut();
+            $("#cover-spin").show().delay(500).fadeOut();
             //set values for dropdown input elements
             $('#status').val("<?php echo $result['status']; ?>");
             $('#priority').val("<?php echo $result['priority'] ?>");
@@ -106,6 +106,7 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
                         $("#update_status").html(
                             "<div class='alert alert-danger'>" + sanitizeHTML(data.message) + "</div>"
                         ).delay(1000).fadeOut();
+                        $("#cover-spin").delay(500).fadeOut();
                     }
                     $("#edit_todo_form")[0].reset();
                 }).fail(function() {

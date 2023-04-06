@@ -129,7 +129,7 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
             </div>
             <div class="toast align-items-center text-bg-primary position-fixed bottom-0 end-0 p-2 mb-3" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
                 <div class="toast-header">
-                    <small class="me-auto text-dark">Logged in Time <sub>cookie</sub></small>
+                    <small class="me-auto text-dark">Logged in Time</small>
                     <sub class="text-dark"><?php echo htmlentities($_COOKIE['login_time']) ?></sub>
                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
@@ -168,7 +168,6 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
                         "<div class='alert alert-danger'>" + sanitizeHTML(data.message) + "</div>"
                     );
                 }
-                $("#cover-spin").delay(700).fadeOut();
                 setTimeout(function() {
                     window.location.reload();
                 }, 1000);

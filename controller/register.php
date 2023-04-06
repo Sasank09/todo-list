@@ -80,7 +80,7 @@ if (isset($_SESSION['user_mail']) && isset($_SESSION['login_status']) && $_SESSI
     <?php getFooter(); ?>
     <script>
         $(document).ready(function() {
-            $("#cover-spin").show().delay(1990).fadeOut();
+            $("#cover-spin").show().delay(2000).fadeOut();
         });
     </script>
 </body>

@@ -37,7 +37,7 @@ Header("Refresh:2;url=" . INDEX_PAGE_LOCATION);
     </div>
     <script>
         $(document).ready(function() {
-            $("#cover-spin").show().delay(1990).fadeOut();
+            $("#cover-spin").show().delay(2000).fadeOut();
         });
     </script>
 </body>

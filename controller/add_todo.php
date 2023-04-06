@@ -81,6 +81,7 @@ if (!(isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($
                         $("#insert_status").html(
                             "<div class='alert alert-danger'>" + sanitizeHTML(data.message) + "</div>"
                         );
+                        $("#cover-spin").delay(500).fadeOut();
                     }
                 }).fail(function() {
                     $("#cover-spin").delay(500).fadeOut();
