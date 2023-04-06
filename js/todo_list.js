@@ -67,7 +67,7 @@ function checkUserMailAvailability() {
     $(document).ready(function () {
         $("#mail").focusout(function (e) {
             if ($("#mail").val()) {
-                const url = '//' + location.host + '/To-Do%20List/controller/check_user.php?email=' + $("#mail").val();
+                const url = '//' + location.host + '/controller/check_user.php?email=' + $("#mail").val();
                 $.getJSON(url, function (data) {
                     $("#cover-spin").show().delay(300).fadeOut();
                     if (data.status === 0) {
@@ -141,7 +141,7 @@ function validateRegistrationForm() {
                 }
             },
             submitHandler: function (form) {
-                $("#cover-spin").show().delay(500).fadeOut();
+                $("#cover-spin").show();
                 if (!reg_email_err) {
                     form.submit();
                 }
@@ -176,7 +176,7 @@ function validateLoginForm() {
                 },
             },
             submitHandler: function (form) {
-                $("#cover-spin").show().delay(500).fadeOut();
+                $("#cover-spin").show();
                 form.submit();
             }
         });
