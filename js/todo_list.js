@@ -141,12 +141,13 @@ function validateRegistrationForm() {
                 }
             },
             submitHandler: function (form) {
-                $("#cover-spin").show();
                 if (!reg_email_err) {
+                    $("#cover-spin").show();
                     form.submit();
                 }
                 else {
                     $("#mail").addClass("error");
+                    $("#cover-spin").show().delay(300),fadeOut();
                 }
             }
         });
