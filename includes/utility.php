@@ -33,12 +33,12 @@ const DELETE_TODO_FAIL_MSG = "Error: No Records found to delete or you don't hav
 const NO_TODOS_AVAILABLE = "No todo's are available  to display..!!!";
 const NO_TODOS_COMPLETED = "No todo's are completed to display..!!!";
 //All locations stored as constants while we navigate through application
-$uri = $_SERVER['REQUEST_URI'];
-$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-$host = $_SERVER['HTTP_HOST'];
-const INDEX_PAGE_LOCATION = $protocol.$host;
-const INDEX_LOGIN_PAGE_LOCATION = $protocol.$host.'/index.php#loginForm';
-const ALL_TODO_LIST_PHP_LOCATION = $protocol.$host.'/controller/all_todos.php';
+// $uri = $_SERVER['REQUEST_URI'];
+// $protocol = "https://";
+// $host = $_SERVER['HTTP_HOST'];
+const INDEX_PAGE_LOCATION = "/";
+const INDEX_LOGIN_PAGE_LOCATION = '/index.php#loginForm';
+const ALL_TODO_LIST_PHP_LOCATION ='/controller/all_todos.php';
 
 
 
