@@ -194,6 +194,8 @@ if (isset($_SESSION['login_status']) && $_SESSION['login_status'] === 'FAIL') {
         <!-- Footer -->
         <footer class="w3-bottom w3-center w3-black w3-padding-small" style="z-index: 1000;">
             <p>Developed by <a href="" class="w3-hover-text-green">Sasank Tipparaju</a></p>
+            <p>GitHub: <a href="https://github.com/Sasank09/todo-list">Link</a></p>
+            <p>NOTE: Please Don't add any Sensitive Information - This is just a sample application</p>
         </footer>
     </div>
     </body>

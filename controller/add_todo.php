@@ -59,7 +59,7 @@ if (!(isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
         $(document).ready(function() {
-            $("#cover-spin").show();
+            $("#cover-spin").show().delay(500).fadeOut();
             //fucntion to perform submit of add_todo_form
             $("#add_todo_form").on("submit", function(event) {
                 event.preventDefault();
