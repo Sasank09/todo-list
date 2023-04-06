@@ -81,7 +81,7 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
         "use strict";
         //On DOM ready logic
         $(document).ready(function() {
-            $("#cover-spin").show();
+            $("#cover-spin").show(),delay(500).fadeOut();
             //set values for dropdown input elements
             $('#status').val("<?php echo $result['status']; ?>");
             $('#priority').val("<?php echo $result['priority'] ?>");
