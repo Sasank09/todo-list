@@ -217,7 +217,7 @@ function getFooter()
 {
     $output = '<!-- Footer -->
     <footer class="fixed-bottom bg-dark text-center text-white">
-        <span>Developed by <a href="" class="text-info">Sasank Tipparaju</a> &#38;&nbsp; GitHub: <a href="https://github.com/Sasank09/todo-list">Link</a></span>
+        <span>Developed by <a href="" class="text-info">Sasank Tipparaju</a> &#38;&nbsp; GitHub: <a href="https://github.com/Sasank09/todo-list" target="_blank">Link</a></span>
     </footer>
     ';
     echo $output;

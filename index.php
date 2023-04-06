@@ -193,7 +193,7 @@ if (isset($_SESSION['login_status']) && $_SESSION['login_status'] === 'FAIL') {
         <hr>
         <!-- Footer -->
         <footer class="w3-bottom w3-center w3-black w3-padding-small" style="z-index: 1000;">
-            <GitHub:>Developed by <a href="" class="w3-hover-text-green">Sasank Tipparaju</a> &nbsp; &#38;&nbsp; GitHub: <a href="https://github.com/Sasank09/todo-list">Link</a></p>
+            <GitHub:>Developed by <a href="" class="w3-hover-text-green">Sasank Tipparaju</a> &nbsp; &#38;&nbsp; GitHub: <a href="https://github.com/Sasank09/todo-list" target="_blank" class="w3-hover-text-green">Link</a></p>
             <p>NOTE: Please Don't add any Sensitive Information - This is just a sample application</p>
         </footer>
     </div>

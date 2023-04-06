@@ -170,7 +170,7 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
                 }
                 setTimeout(function() {
                     window.location.reload();
-                }, 1000);
+                }, 500);
             }).fail(function() {
                 alert("error");
             });
