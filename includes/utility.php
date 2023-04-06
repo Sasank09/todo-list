@@ -33,9 +33,9 @@ const DELETE_TODO_FAIL_MSG = "Error: No Records found to delete or you don't hav
 const NO_TODOS_AVAILABLE = "No todo's are available  to display..!!!";
 const NO_TODOS_COMPLETED = "No todo's are completed to display..!!!";
 //All locations stored as constants whilw we navigate through application
-const INDEX_PAGE_LOCATION = 'http://localhost/To-Do%20List/';
-const INDEX_LOGIN_PAGE_LOCATION = 'http://localhost/To-Do%20List/index.php#loginForm';
-const ALL_TODO_LIST_PHP_LOCATION = 'http://localhost/To-Do%20List/controller/all_todos.php';
+const INDEX_PAGE_LOCATION = '/';
+const INDEX_LOGIN_PAGE_LOCATION = '/index.php#loginForm';
+const ALL_TODO_LIST_PHP_LOCATION = '/controller/all_todos.php';
 
 
 
