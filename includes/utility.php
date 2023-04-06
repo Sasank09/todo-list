@@ -9,12 +9,12 @@ require_once "pdo.php";
 session_start();
 //All the constants defined here to be accessed across the files in application
 const ERROR_404_MSG = "Error:404 Bad Request...";
-const REGISTRATION_PAGE_MSG = "Please wait while we process your registration in 3 seconds...";
+const REGISTRATION_PAGE_MSG = "Please wait while we process your registration...";
 const NEED_TO_LOGIN_MSG = "Please login first to access the application.. ";
-const REGISTRATION_FAIL_REDIRECT_MSG = "Regsitration is failed, redirecting to home page in 3seconds. Please try again...";
-const LOGIN_FAIL_REDIRECT_MSG = "Login is failed, redirecting to home page in 3seconds. Please try again...";
-const LOGIN_PAGE_MSG = "Please wait while we process your login request and redirect in 3 seconds...";
-const LOGOUT_PAGE_MSG = "Please wait while we log you out and redirect in 3 seconds";
+const REGISTRATION_FAIL_REDIRECT_MSG = "Regsitration is failed, redirecting to home page. Please try again...";
+const LOGIN_FAIL_REDIRECT_MSG = "Login is failed, redirecting to home page. Please try again...";
+const LOGIN_PAGE_MSG = "Please wait while we process your login request and redirect to next page...";
+const LOGOUT_PAGE_MSG = "Please wait while we log you out and redirect to home page";
 const INVALID_USER_CREDS_MSG = "Invalid Credentials, please try again. ";
 const INVALID_PASSWORD_MSG = "Invalid Password, please try again";
 const EMAIL_ALREADY_EXISTS_MSG = "Email already exists with us...";

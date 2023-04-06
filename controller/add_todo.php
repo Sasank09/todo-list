@@ -59,7 +59,7 @@ if (!(isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
         $(document).ready(function() {
-            $("#cover-spin").show().delay(700).fadeOut();
+            $("#cover-spin").show();
             //fucntion to perform submit of add_todo_form
             $("#add_todo_form").on("submit", function(event) {
                 event.preventDefault();
@@ -82,9 +82,8 @@ if (!(isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($
                             "<div class='alert alert-danger'>" + sanitizeHTML(data.message) + "</div>"
                         );
                     }
-                    $("#cover-spin").delay(500).fadeOut();
-
                 }).fail(function() {
+                    $("#cover-spin").delay(500).fadeOut();
                     alert("error");
                 });
             });
