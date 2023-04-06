@@ -1,14 +1,7 @@
 -- phpMyAdmin SQL Dump
 
--- Database Server: localhost via TCP/IP
 -- Server type: MySQL
--- Server version: 5.7.24 - MySQL Community Server (GPL)
 -- Server charset: UTF-8 Unicode (utf8)
-
--- Web Server - localhost 
--- Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.0.1
--- PHP version: 8.0.1
-
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 -- setting time zone for America/Chicago

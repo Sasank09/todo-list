@@ -101,7 +101,7 @@ if (isset($_SESSION['user_mail']) && !empty($_SESSION['user_mail']) && isset($_S
                         $("#update_status").html(
                             "<div class='alert alert-success'>" + sanitizeHTML(data.message) + "</div>"
                         ).delay(1000).fadeOut();
-                        window.location.replace("http://localhost/To-Do%20List/controller/view_todo.php?id=" + json["todoId"]);
+                        window.location.replace("/Controller/view_todo.php?id=" + json["todoId"]);
                     } else {
                         $("#update_status").html(
                             "<div class='alert alert-danger'>" + sanitizeHTML(data.message) + "</div>"
